@@ -19,23 +19,40 @@ header nav form .new {
   margin-left: 10px;
 }
 
-section .col {
+.carousel .col {
   color: black;
 }
-section .col img {
+.carousel .col img {
   position: relative;
   width: 100%;
   height: 392px;
   top: -50px;
   left: -80px;
 }
-section .col button {
+.carousel .col button {
   width: 150px;
   height: 50px;
   background: #F8B653;
   border: 0px;
 }
-section .box-right {
+.carousel .box-right {
   position: relative;
   bottom: -40px;
+}
+
+.ProductFeature .document h1 {
+  text-align: center;
+}
+.ProductFeature .items {
+  margin-top: 60px;
+}
+.ProductFeature .card {
+  border: 0px;
+  background-color: #F8F8F8;
+}
+.ProductFeature button {
+  width: 150px;
+  height: 50px;
+  background: #F8B653;
+  border: 0px;
 }/*# sourceMappingURL=index.css.map */

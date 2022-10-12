@@ -29,7 +29,7 @@ header {
     }
 }
 
-section {
+.carousel{
     .col {
         color: black;
 
@@ -55,4 +55,25 @@ section {
         bottom: -40px;
     }
 
+}
+.ProductFeature{
+    .document{
+        h1{
+            text-align: center;
+        }
+    }
+    .items{
+        margin-top:60px ;
+    }
+    .card{
+        border: 0px;
+        background-color:#F8F8F8;
+        ;
+    }
+    button {
+        width: 150px;
+        height: 50px;
+        background: #F8B653;
+        border: 0px;
+    }
 }
