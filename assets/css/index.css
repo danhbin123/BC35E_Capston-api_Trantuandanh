@@ -2,7 +2,7 @@ header {
   background-color: black;
 }
 header nav .navbar-brand img {
-  width: 116px;
+  width: 10px;
   height: 32px;
 }
 header nav form img {
@@ -46,13 +46,166 @@ header nav form .new {
 .ProductFeature .items {
   margin-top: 60px;
 }
-.ProductFeature .card {
-  border: 0px;
-  background-color: #F8F8F8;
+.ProductFeature .card img {
+  width: 100%;
+  padding: 45px 57px 10px 57px;
 }
 .ProductFeature button {
   width: 150px;
   height: 50px;
   background: #F8B653;
   border: 0px;
+}
+.ProductFeature .col-sm {
+  margin-bottom: 30px;
+}
+
+.account .log-in input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 20px;
+  border: solid #AE18E2;
+}
+.account .form-check {
+  display: flex;
+  width: 100px;
+  align-items: center;
+}
+.account .form-check input {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.account .box_items {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+.account .btn {
+  background: #AE18E2;
+  color: #F8F8F8;
+  height: 50px;
+  width: 291px;
+  border-radius: 0px;
+  margin-top: 10px;
+}
+.account .Register h1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.account .form-check {
+  margin-top: 20px;
+}
+
+footer .mt-5 {
+  margin-top: 3rem !important;
+}
+footer .footer_top {
+  background: #F7F7F7;
+  padding-top: 5px;
+}
+footer h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000 !important;
+  line-height: 19px;
+}
+footer ul {
+  list-style: none;
+  padding: 0px;
+}
+footer a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000 !important;
+  line-height: 10px;
+  transition: all 0.5s;
+}
+footer .footer_bot {
+  background: #DEDDDC;
+  padding: 20px 0;
+}
+footer .footer_sign {
+  color: red !important;
+  transition: all 1s;
+}
+footer .footer_view {
+  color: red !important;
+}
+footer .footer_search {
+  color: red !important;
+}
+
+.box__shoes {
+  align-items: center;
+}
+
+.picture__shoes {
+  background-image: linear-gradient(to right, #000000 0, #f83e3e 51%, #000000 100%);
+  background-size: 200%;
+  padding: 42px;
+  border-radius: 40px;
+  transition: all 1s;
+  margin-top: 50px;
+}
+.picture__shoes img {
+  height: 271px;
+  width: 100%;
+}
+
+.picture__shoes:hover {
+  background-position: right center;
+}
+
+.content__shoes h1 {
+  color: #f83e3e;
+}
+.content__shoes .size__shoes h2 {
+  color: greenyellow;
+}
+.content__shoes .size__shoes .btn {
+  margin-right: 21px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: #CCCCCC;
+}
+.content__shoes .size__shoes span {
+  font-weight: 600;
+  font-size: 20px;
+}
+.content__shoes .btn:hover {
+  background-color: #f83e3e;
+}
+.content__shoes .price__shoes h2 {
+  color: #f83e3e;
+}
+.content__shoes .price__shoes .order__shoes .up_and_down {
+  margin-right: 21px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: #CCCCCC;
+}
+.content__shoes .price__shoes .order__shoes .number {
+  font-size: 20px;
+  margin-right: 20px;
+}
+.content__shoes .btnAdd {
+  margin-top: 20px;
+  width: 175px;
+  height: 64px;
+  background: linear-gradient(270deg, rgba(248, 32, 43, 0.9) 5.14%, #000000 89.71%);
+  background-size: 200%;
+  border: none;
+  color: #CCCCCC;
+  transition: all 1s;
+}
+.content__shoes .btnAdd:hover {
+  background-position: right center;
+}
+
+.Realate__Product {
+  margin-top: 50px;
 }/*# sourceMappingURL=index.css.map */
